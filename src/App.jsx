@@ -6,10 +6,11 @@ export default class App extends Component{
   render(){
     return(
       <div className='ListaContadores'>
-        <Contador> Alumnos </Contador >
+        <Contador> Alumnos </Contador>
         <Contador> Profesores </Contador>
-        <Contador> Aulas </Contador >
-        <Contador></Contador >
+        <Contador> Aulas </Contador>
+        <Contador> Materias </Contador>
+        <Contador> Desaprobados </Contador>
       </div>
     )
   }
